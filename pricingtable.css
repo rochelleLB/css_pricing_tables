@@ -1,0 +1,167 @@
+/* CSS Reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* background */
+body {
+	background-color: #d7d4d7;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+  flex-wrap: wrap;
+}
+
+#title {
+	font-size: 3.5rem;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 20px;
+  letter-spacing: 1px;
+  color: #241623;
+  
+}
+
+
+/* Uniform table Styles */
+div.table {
+	min-width: 360px;
+	height: 510px;
+	text-align: center;
+	border-radius: 3px;
+	background-color: white;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+	transition-duration: 300ms;
+	margin-top: 40px;
+	margin-right: 15px;
+}
+
+
+/* header styles */
+h1 {
+	padding: 25px 0 20px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	background-color: pink;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	color: white;
+}
+
+#headerBasic {
+  background-color: #3c6e71;
+}
+
+#headerStandard {
+  background-color: #d0cd94;
+}
+
+#headerPro {
+  background-color: #967995;
+}
+
+/* text data container box */
+ul {
+	width: 220px;
+	margin: 0 auto;
+}
+
+/* list data styles */
+li.textData {
+	list-style-type: none;
+	font-size: 1.3rem;
+	font-weight: 300;
+	padding-top: 1rem;
+	padding-bottom: 1.2rem;
+	border-bottom: 2px solid #ccd1ce;
+  color: #241623;
+}
+
+/* bold text! */
+strong {
+	font-weight: bold;
+}
+
+/* price style */
+li.price {
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 3.5rem;
+	padding-top: 25px;
+	color: #d0cd94;
+}
+
+li.basic {
+	color: #3c6e71;
+}
+
+li.pro {
+	color: #967995;
+}
+
+/* pound sign */
+li span {
+	display: inline-block;
+	font-size: 2.5rem;
+	padding-right: 5px;
+}
+
+/* per month text */
+li.perMonth {
+	list-style-type: none;
+	font-size: 1rem;
+	margin-top: -7px;
+	text-transform: lowercase;
+	color: #a8a8a8;
+}
+
+/* join now button */
+.button {
+	height: 50px;
+	width: 220px;
+	margin-top: 30px;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+  background-color: #d0cd94;
+}
+
+.buttonBasic {
+  background-color: #3c6e71;
+}
+
+.buttonPro {
+	background-color: #967995;
+}
+
+/* table grows on hover */
+div.table:hover {
+transform: scale(1.05);
+}
+
+/* button on hover */
+.button:hover {
+	cursor: pointer;
+}
+
+/* signature */
+.sig {
+  text-align: right;
+  margin: 40px 50px 0px 0px;
+  color: #967995;
+
+
+}
+
+.sig .name {
+  font-weight: bold;
+  color: #241623;
+
+}
